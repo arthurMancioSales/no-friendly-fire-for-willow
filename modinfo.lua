@@ -1,6 +1,5 @@
-name = "No Friendly Fire from Willow"
+name = "No Friendly Fire from Willow - DEV 1.8"
 description = [[
-== ENGLISH ==
 Completely rebalances Willow's fire penalties so allies don't suffer negative effects when fighting alongside her.
 
 Features included:
@@ -13,7 +12,6 @@ Features included:
 
 Everything is individually configurable, but all features are enabled by default.
 
-== PORTUGUÊS ==
 Rebalanceia totalmente as penalidades de fogo da Willow para que aliados não sofram efeitos negativos ao combater ao lado dela.
 
 Funcionalidades incluídas:
@@ -32,6 +30,7 @@ dst_compatible = true
 all_clients_require_mod = true
 client_only_mod = false
 server_filter_tags = {"willow", "fire", "allies", "friendly fire"}
+
 
 configuration_options =
 {
@@ -86,17 +85,6 @@ configuration_options =
         options = {
             {description = "Enabled (default)", data = true},
             {description = "Disabled", data = false},
-        },
-        default = true,
-    },
-
-    {
-        name = "ENABLE_WILLOW_TAGGING",
-        label = "Automatic Skill Tagging",
-        hover = "Properly identifies all flames, explosions, and effects created by Willow to ensure full compatibility between modules.",
-        options = {
-            {description = "Enabled (default)", data = true},
-            {description = "Disabled (not recommended)", data = false},
         },
         default = true,
     },
